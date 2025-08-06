@@ -1,4 +1,4 @@
-Claro! Vamos destrinchar esse projeto de forma clara:
+Vamos destrinchar esse projeto de forma clara!
 
 💼 Projeto: Simulação de uma Carteira de Investimentos
 
