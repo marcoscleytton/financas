@@ -1,1 +1,38 @@
-# financas
+Claro! Vamos destrinchar esse projeto de forma clara:
+
+💼 Projeto: Simulação de uma Carteira de Investimentos
+
+Este projeto é uma função em Python chamada `simula_carteira`, que tem como objetivo simular o desempenho de uma carteira de ações ao longo de um período e compará-lo com o índice IBOVESPA.
+
+🧠 O que essa função faz?
+
+Ela analisa como uma carteira de ações teria se comportado entre duas datas específicas, usando dados reais do mercado. Além disso, ela compara esse desempenho com o do IBOVESPA, que é o principal índice da bolsa brasileira.
+
+---
+
+ 🔍 Etapas da Simulação
+
+1. **📥 Coleta de Dados**
+   - Usa a biblioteca `yfinance` para baixar os preços históricos das ações da carteira.
+   - Também baixa os dados do IBOVESPA para comparação.
+
+2. **📊 Cálculo da Quantidade de Ações**
+   - Com base no valor investido e no preço inicial de cada ação, calcula quantas ações foram compradas.
+
+3. **💰 Cálculo do Valor da Carteira**
+   - Multiplica os preços diários das ações pela quantidade comprada para saber o valor da carteira ao longo do tempo.
+
+4. **📈 Comparação com o IBOVESPA**
+   - Junta os dados da carteira com os do IBOVESPA e ajusta para comparar o desempenho relativo.
+
+5. **🖼️ Visualização**
+   - Gera um gráfico que mostra a evolução da carteira versus o IBOVESPA.
+
+---
+
+
+### 📌 Aplicações
+
+- Investidores podem testar estratégias passadas.
+- Estudantes de finanças podem aprender sobre análise de portfólio.
+- Desenvolvedores podem integrar essa função em sistemas maiores de gestão de investimentos.
